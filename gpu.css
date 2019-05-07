@@ -1,0 +1,429 @@
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+footer {
+
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #ad88aa;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    opacity: 0.6;
+    margin-left: 0;
+    
+    
+/*    Test    */
+    
+    
+
+}
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+/*    background-image: url('922275.png');*/
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+}
+
+li {
+    width: 200px;
+    display: inline-block;
+    margin: 0 10px auto;
+    position: relative;
+    top: 10px;
+/*    box-shadow: 3px 3px white;*/
+    transition: 2s;
+}
+
+li a {
+    display: block;
+    position: relative;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    transition: 1s;
+    text-decoration: none;
+    transform: rotate(360deg);
+    font-weight: bold;
+    opacity: 1;
+    
+}
+li a:hover{
+    cursor: pointer;
+    color: #515151;
+    transform: rotate(0deg);
+    font-size: 30px;
+/*    transition: 1s;*/
+/*    box-shadow: -3px -3px white;*/
+}
+li:hover{
+    top: 20px;
+/*    transition: 1s;*/
+/*    border: 3px solid white;*/
+/*
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: -3px -3px white;
+    box-shadow: 3px 3px;
+    border: 3px solid white;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+*/
+    
+}
+
+/*
+nav:hover {
+    background-color: black;
+    transition: 1s;
+}
+*/
+/*
+div {
+    text-align: center;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    position: relative;
+    top: 50px;
+}
+*/
+
+
+/* The element to apply the animation to */
+.big, .min, nav, .circle {
+
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+
+.big h1 {
+    width: 180px;
+    position: relative;
+    top: 75px;
+    color: white;
+    margin: 0 auto;
+    transition: 1s;
+
+}
+.min {
+   text-align: justify;
+    border: 3px solid black;
+    height: 200px;
+    width: 500px;
+    display: inline-block;
+/*    background-image: url(.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    display: inline-block;*/
+    color: white;
+    transition: 1s;
+    font-weight: normal;
+    transform: rotate(0deg);
+/*
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+*/
+}
+.big {
+    text-align: center;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+/*    background-image: url(ai-codes-coding-97077.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    display: inline-block;*/
+    color: black;
+    z-index: inherit;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    transition: 1s;
+}
+.big, .min {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+section {
+    text-align: center;
+}
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #252628;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    position: absolute;
+    left: -1px;
+    opacity: 0.4;
+    
+}
+
+.bigg {
+    width: 30%;
+    height: 200px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20%;
+    color: white;
+
+}
+
+
+
+
+.end {
+    position: relative;
+    top: 70px;
+    color: white;
+    text-align: center;
+  background: -webkit-linear-gradient(black, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-weight: bold;
+/*
+    color: Red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+*/
+
+}
+
+.left {
+    text-align: right;
+/*    padding: 10px;*/
+}
+
+.right {
+    text-align: left;
+/*    padding: 10px;*/
+}
+
+
+.cont {
+    width: 100%;
+}
+
+
+@keyframes example {
+    0%   {background-color: #0E0B0E;}
+    20%  {background-color: #252628;}
+    40%  {background-color: #59575D;}
+    60%   {background-color:  #59575D;}
+    80%   {background-color: #252628;}
+    100% {background-color:  #0E0B0E;}
+}
+
+.big h1:hover {
+    color: white;
+}
+.big:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.min:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+.main {
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*
+.main {
+    position: relative;
+    top: 60px;
+    color: black;
+}*/
+
+
+
+nav {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+.margin {
+    margin-top: 110px;
+}
+
+.dad {
+/*
+    width: 100%;
+    height: 250px;
+    background-image: url(razer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid red;
+    background-color: #252628;
+*/
+    opacity: 0.5;
+}
+
+body {
+    width: 100%;
+    height: 1400px;
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+/*
+    background-repeat: no-repeat;
+     background-size: 100%;
+*/
+}
+
+.end {
+    position: relative;
+    top: 35%;
+    color: white;
+    opacity: none;
+}
+
+/*
+iframe {
+    height: 480px;
+    width: 854px;
+    position: relative;
+    top: 1500px;
+    left: 50px
+}
+*/
+
+body {
+    overflow-x: hidden;
+}
+
+/*
+img {
+    width: 100%;
+    height: 1400px;
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    position: absolute;
+    top: 1400px;
+    left: -1px;
+}
+*/
+
+
+
+/*
+body {
+  overflow:hidden;
+}
+*/
+
+header {
+  width:110%;
+  top:-5%;
+  left:-5%;
+  transform:rotate(2deg);
+}
+
+header p {
+  margin-left:5%;
+  transform:rotate(-2deg);
+}
+
+body  header{
+    width: 100%;
+    position: relative;
+    left: -5px;
+    top: 8px;
+}
+
+.sp {
+    font-size: 30px;
+    background: -webkit-linear-gradient(black, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
